@@ -26,14 +26,14 @@ function setup() {
 function draw(){
   
   fill(0);
-  rect(0,0,width,height);
+  rect(0,0,500,600);
   
-  img.loadPixels();
+  //img.loadPixels();
   
   
   
-  for(var i = 0; i < width; i += p){
-    for(var j = 0; j < height; j += p){
+  for(var i = 0; i < 500; i += p){
+    for(var j = 0; j < 600; j += p){
       var c1 = img.get(i, j);
       
       
@@ -82,7 +82,7 @@ function draw(){
     }
    }
    p=pixelSize+random(2);
-   img.updatePixels();
+   //img.updatePixels();
 }
 
 
