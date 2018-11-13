@@ -27,7 +27,6 @@ function draw(){
   
   fill(0);
   rect(0,0,width,height);
-  image(img,0,0);
   
   img.loadPixels();
   
